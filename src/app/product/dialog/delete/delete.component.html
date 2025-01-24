@@ -1,0 +1,11 @@
+<h2 mat-dialog-title>Confirm Deletion</h2>
+<mat-dialog-content>
+  <p>  <mat-icon color="warn">delete_forever</mat-icon>
+  </p>
+  <p>Are you sure you want to delete this product?</p>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+  <button mat-button (click)="onCancel()">Cancel</button>
+  <button mat-raised-button color="warn" (click)="onDelete()">Delete</button>
+</mat-dialog-actions>

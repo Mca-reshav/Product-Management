@@ -1,0 +1,36 @@
+mat-dialog-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  mat-dialog-content {
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  mat-dialog-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  button {
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+  }
+  
+  button[mat-raised-button] {
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    background-color: #d32f2f;
+    color: white;
+  }
+  
+  button[mat-button] {
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    background-color: transparent;
+    color: #1976d2;
+  }
+  
